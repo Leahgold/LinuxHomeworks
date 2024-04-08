@@ -1,0 +1,71 @@
+leah@debian:/home$ history 
+    1  sudo apt-get install linux-headers-generic
+    2  su
+    3  ping 8.8.8.8
+    4  arp -a
+    5  ifconfig
+    6  iwconfig
+    7  lspci -knn
+    8  lspci -knn | grep Net -A3
+    9  rfkill list
+   10  ping 192.168.50.1
+   11  ping google.com
+   12  sudo apt install gnome-session gdm3
+   13  su
+   14  cd /home
+   15  md /home/animals
+   16  mkdir /home/animals
+   17  chmod +r 
+   18  chmod --help
+   19  chmod +r .
+   20  sudo chmod +r .
+   21  ls
+   22  ls -a
+   23  ls -aux
+   24  ll
+   25  ls --help
+   26  ls -auxh
+   27  dd
+   28  dh
+   29  hd
+   30  sudo chmod -R 777 /home
+   31  su root
+   32  sudo chmod -R 777 /home
+   33  ls
+   34  ls -a
+   35  ls --all
+   36  mkdir /home/animals
+   37  ls
+   38  ls -a
+   39  home/animals/dogs
+   40  mkdir /home/animals/dogs
+   41  mkdir /home/animals/cats
+   42  mkdir /home/animals/fish
+   43  ls
+   44  tree
+   45  sudo apt-get install tree
+   46  tree
+   47  tree .
+   48  tree /home
+   49  mkdir /home/planets
+   50  tree
+   51  touch /opt/Mercury
+   52  sudo chmod -R 777 /opt
+   53  ls /
+   54  touch /opt/Mercury
+   55  touch /opt/Venus
+   56  touch /opt/Mars
+   57  touch /opt/Jupiter
+   58  ls /opt/
+   59  ls -a /opt/
+   60  mv /opt/* /home/planets
+   61  tree
+   62  ls -a /opt/
+   63  touch /tmp/adam
+   64  mkdir /home/humans
+   65  touch /tmp/evA
+   66  mv /tmp/evA /opt/eve
+   67  mv /opt/eve /home/humans
+   68  tree
+   69  history 
+
