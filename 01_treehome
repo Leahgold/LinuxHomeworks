@@ -1,0 +1,28 @@
+leah@debian:/home$ tree /home
+/home
+├── animals
+│   ├── cats
+│   ├── dogs
+│   └── fish
+├── humans
+│   ├── adam
+│   └── eve
+├── leah
+│   ├── Desktop
+│   │   └── menu-xdg-X-Debian-Applications-Shells-bash.desktop
+│   ├── Documents
+│   ├── Downloads
+│   ├── Music
+│   ├── Pictures
+│   ├── Public
+│   ├── Templates
+│   └── Videos
+└── planets
+    ├── Jupiter
+    ├── Mars
+    ├── Mercury
+    └── Venus
+
+16 directories, 7 files
+leah@debian:/home$ 
+
