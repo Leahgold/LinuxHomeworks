@@ -1,0 +1,69 @@
+70  tree /home
+   71  mkdir /home/user/start
+   72  mkdir -r /home/user
+   73  mkdir /home/user
+   74  sudo chmod -R 777 /home
+   75  mkdir /home/user
+   76  ./user/start
+   77  mkdir /home/user/start
+   78  touch /home/user/start/1.txt
+   79  echo Start > /home/user/start/1.txt
+   80  cat /home/user/start/1.txt
+   81  date >> /home/user/start/1.txt
+   82  cat /home/user/start/1.txt
+   83  mkdir /opt/task
+   84  cp /home/user/start/1.txt /opt/task/start.txt
+   85  cat /opt/task/start.txt
+   86  ls -a /
+   87  ls -a / | tail -n 4
+   88  ls -a / | tail -n 4 >> /opt/task/start.txt 
+   89  cat /opt/task/start.txt
+   90  mkdir /tmp/testnew
+   91  cp /opt/task /tmp/testnew
+   92  cp -r /opt/task /tmp/testnew
+   93  ls /tmp/testnew/
+   94  tree /tmp/testnew/
+   95  ls
+   96  cd ~
+   97  ls
+   98  ls /
+   99  find readme
+  100  find / readme
+  101  history
+  102  touch /home/readme.text
+  103  touch /home/readme.txt
+  104  echo FFFF /home/readme.txt
+  105  echo "FFFFFF" >> /home/readme.txt
+  106  clear
+  107  history
+leah@debian:~$ 
+leah@debian:~$ 
+leah@debian:~$ cat /home/readme.txt >> /opt/task/start.txt
+leah@debian:~$ cat/opt/task/start.txt
+bash: cat/opt/task/start.txt: No such file or directory
+leah@debian:~$ cat /opt/task/start.txt
+Start
+Mon 15 Apr 2024 20:46:39 IDT
+usr
+var
+vmlinuz
+vmlinuz.old
+FFFFFF
+leah@debian:~$ rm /opt/task
+rm: cannot remove '/opt/task': Is a directory
+leah@debian:~$ rm -r /opt/task
+leah@debian:~$ tree
+.
+├── Desktop
+│   └── menu-xdg-X-Debian-Applications-Shells-bash.desktop
+├── Documents
+├── Downloads
+├── Music
+├── Pictures
+├── Public
+├── Templates
+└── Videos
+
+9 directories, 1 file
+leah@debian:~$ 
+
